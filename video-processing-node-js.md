@@ -1,4 +1,4 @@
-Best optimized javascript video frames extraction and processing in node.js
+## Best optimized javascript video frames extraction and processing in node.js
 
 The best way to optimize javascript video frames extraction and processing in node.js is to use the FFmpeg library. 
 FFmpeg is a powerful, open-source library for manipulating video and audio files, and it is well-suited for video frame extraction and processing in node.js. 
@@ -6,8 +6,8 @@ With FFmpeg, you can extract frames from video files, process the frames in node
 For example, you can extract frames every 10 seconds and save them to a separate image file. 
 Additionally, FFmpeg supports a wide variety of video and audio formats, so it can be used to process almost any type of video file.
 
-Write best optimized javascript code for video frames extraction and processing in node.js
-
+## Write best optimized javascript code for video frames extraction and processing in node.js
+```
 const fs = require('fs');
 const path = require('path');
 
@@ -42,6 +42,7 @@ const processFrames = (inputDir) => {
 // Main
 const videoPath = './video.mp4';
 const outputDir = './frames';
+```
 
 extractFrames(videoPath, outputDir);
 processFrames(outputDir);
